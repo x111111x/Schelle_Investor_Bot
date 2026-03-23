@@ -3,7 +3,7 @@ name: Daily Advisory Pipeline
 on:
   schedule:
     # Run daily at 10:15 UTC (18:15 Singapore time / UTC+8)
-    - cron: '15 10 * * *'
+    # - cron: '15 10 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
