@@ -3,7 +3,7 @@ Project Alpha: Advisory — Daily Investment Advisory System
 ==========================================================
 Advisory Only — No Real Trades
 Generates daily recommendations for a $50,000 paper portfolio
-and delivers them via Telegram at 06:00 CST (UTC+8).
+and delivers them via Telegram at 08:00 SGT (UTC+8).
 
 Usage:
     python main.py              # Start scheduler (runs daily at 06:00 CST)
