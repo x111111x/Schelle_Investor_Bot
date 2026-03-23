@@ -126,8 +126,8 @@ class SentimentEngine:
         if not scores:
             return "Neutral"
         avg = sum(scores) / len(scores)
-        if avg > 0.1:
+        if avg > 0.2:
             return "Bullish"
-        if avg < -0.1:
+        if avg < -0.2:
             return "Bearish"
         return "Neutral"

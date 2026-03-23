@@ -81,18 +81,40 @@ class MacroScout:
 
         return sentiment, detail
 
-    def _extract_key_events(self, headlines: list[dict]) -> list[str]:
-        """Return top headlines as key event strings."""
+    # Keywords used to score headline relevance to markets/investing
+    _MARKET_KEYWORDS = [
+        "market", "stock", "shares", "equity", "equities", "index", "indices",
+        "dow", "nasdaq", "s&p", "sp500", "fed", "federal reserve", "fomc",
+        "inflation", "gdp", "economy", "economic", "recession", "rate", "rates",
+        "yield", "bond", "treasury", "dollar", "currency", "trade", "tariff",
+        "earnings", "revenue", "profit", "growth", "jobs", "unemployment",
+        "oil", "energy", "commodity", "commodities", "crypto", "bitcoin",
+        "bank", "banking", "debt", "deficit", "fiscal", "monetary",
+        "china", "europe", "geopolit", "sanctions", "supply chain",
+        "ipo", "merger", "acquisition", "buyback", "dividend",
+    ]
+
+    def _relevance_score(self, title: str) -> int:
+        """Count how many market keywords appear in the headline."""
+        title_lower = title.lower()
+        return sum(1 for kw in self._MARKET_KEYWORDS if kw in title_lower)
+
+    def _extract_key_events(self, headlines: list[dict]) -> list[dict]:
+        """Score all headlines by relevance and return the top 5 across all sources."""
         seen = set()
-        events = []
+        scored = []
         for h in headlines:
             title = h["title"].strip()
-            if title and title not in seen:
-                seen.add(title)
-                events.append(title)
-            if len(events) >= 5:
-                break
-        return events
+            if not title or title in seen:
+                continue
+            seen.add(title)
+            score = self._relevance_score(title)
+            if score > 0:
+                scored.append((score, h))
+
+        # Sort by relevance score descending; take top 5
+        scored.sort(key=lambda x: x[0], reverse=True)
+        return [{"title": h["title"], "link": h.get("link", "")} for _, h in scored[:5]]
 
     def _fetch_fred_data(self) -> dict:
         """Optionally fetch FRED economic data if API key is available."""
@@ -145,6 +167,6 @@ class MacroScout:
                 parts.append("Key metrics: " + ", ".join(metrics) + ".")
 
         if events:
-            parts.append(f"Top headline: {events[0][:80]}.")
+            parts.append(f"Top headline: {events[0]['title'][:80]}.")
 
         return " ".join(parts)
