@@ -1,7 +1,10 @@
 name: Daily Advisory Pipeline
 
 on:
-  workflow_dispatch:  # Allow manual trigger (cron-job.org triggers via API)
+  schedule:
+    # Disabled - using cron-job.org as the sole trigger for 8:00 AM SGT
+    # - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger via API
 
 jobs:
   run-advisory:
