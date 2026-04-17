@@ -1,6 +1,8 @@
-"""Report Builder — aggregates all module data into Telegram MarkdownV2."""
+"""Report Builder — aggregates all module data into Telegram HTML."""
 
-from utils.helpers import escape_md2, now_china
+import html as _html
+
+from utils.helpers import escape_html, now_china
 from utils.logger import get_logger
 
 logger = get_logger("report_builder")
@@ -400,19 +402,16 @@ class ReportBuilder:
         return self._split_messages(sections)
 
     def _build_header(self, date_str: str) -> str:
-        d = escape_md2(date_str)
-        return (
-            f"*📊 DAILY INVESTMENT BRIEF*\n"
-            f"_{d}_"
-        )
+        d = escape_html(date_str)
+        return f"<b>📊 DAILY INVESTMENT BRIEF</b>\n<i>{d}</i>"
 
     def _build_executive_summary(self, macro: dict, sentiment: dict) -> str:
         mood = sentiment.get("overall_market_mood", "Neutral")
         mood_emoji = self._mood_to_emoji(mood)
-        summary = escape_md2(macro.get("macro_summary", "Data unavailable"))
+        summary = escape_html(macro.get("macro_summary", "Data unavailable"))
         return (
-            f"\n*🎯 QUICK SUMMARY*\n"
-            f"Market Feeling: *{mood_emoji} {escape_md2(mood)}*\n"
+            f"\n<b>🎯 QUICK SUMMARY</b>\n"
+            f"Market Feeling: <b>{mood_emoji} {escape_html(mood)}</b>\n"
             f"{summary}"
         )
 
@@ -428,27 +427,26 @@ class ReportBuilder:
             return "😐"
 
     def _build_macro_section(self, macro: dict) -> str:
-        risk = escape_md2(macro.get("risk_level", "N/A"))
-        fed = escape_md2(macro.get("fed_sentiment", "N/A"))
-        fed_detail = escape_md2(macro.get("fed_detail", ""))
+        risk = escape_html(macro.get("risk_level", "N/A"))
+        fed = escape_html(macro.get("fed_sentiment", "N/A"))
+        fed_detail = escape_html(macro.get("fed_detail", ""))
 
         lines = [
-            f"\n*🌍 BIG PICTURE OUTLOOK*",
-            f"Overall Market Risk: *{risk}*",
-            f"What the Fed Is Doing: *{fed}*",
-            f"_{fed_detail}_",
+            f"\n<b>🌍 BIG PICTURE OUTLOOK</b>",
+            f"Overall Market Risk: <b>{risk}</b>",
+            f"What the Fed Is Doing: <b>{fed}</b>",
+            f"<i>{fed_detail}</i>",
         ]
 
         events = macro.get("key_events", [])
         if events:
             lines.append("\nImportant News:")
             for evt in events[:5]:
-                title = escape_md2(evt["title"][:100])
+                title = escape_html(evt["title"][:100])
                 link = evt.get("link", "")
                 if link:
-                    # Escape only ) and \ inside the URL per MarkdownV2 spec
-                    url = link.replace("\\", "\\\\").replace(")", "\\)")
-                    lines.append(f"  • [{title}]({url})")
+                    safe_url = _html.escape(link, quote=True)
+                    lines.append(f'  • <a href="{safe_url}">{title}</a>')
                 else:
                     lines.append(f"  • {title}")
 
@@ -457,11 +455,11 @@ class ReportBuilder:
             parts = []
             if "10Y_YIELD" in fred:
                 yield_val = fred['10Y_YIELD']
-                parts.append(f"10\\-Year Bond Yield: {escape_md2(str(yield_val))}%")
+                parts.append(f"10-Year Bond Yield: {escape_html(str(yield_val))}%")
             if "VIX" in fred:
                 vix_val = fred['VIX']
                 vix_status = "High Fear" if float(vix_val) > 25 else "Normal"
-                parts.append(f"Fear Index: {escape_md2(str(vix_val))} \\({vix_status}\\)")
+                parts.append(f"Fear Index: {escape_html(str(vix_val))} ({vix_status})")
             if parts:
                 lines.append("\nKey Numbers:")
                 for part in parts:
@@ -470,12 +468,11 @@ class ReportBuilder:
         return "\n".join(lines)
 
     def _build_recommendations(self, picks: list[dict], sentiment: dict) -> list[str]:
-        sections = ["\n*📈 WHAT TO BUY OR SELL TODAY*"]
+        sections = ["\n<b>📈 WHAT TO BUY OR SELL TODAY</b>"]
 
-        # Show top picks (Buy/Sell only, limit to 8)
         actionable = [p for p in picks if p["action"] in ("Buy", "Sell")]
         if not actionable:
-            sections.append("_No changes recommended today. Hold steady\\._")
+            sections.append("<i>No changes recommended today. Hold steady.</i>")
             return sections
 
         for pick in actionable[:8]:
@@ -484,25 +481,24 @@ class ReportBuilder:
             action = pick["action"]
             action_emoji = "🟢 BUY" if action == "Buy" else "🔴 SELL"
 
-            # Get sentiment for this ticker
             tick_sent = sentiment.get("ticker_sentiments", {}).get(ticker, {})
-            trend = escape_md2(tick_sent.get("trend", "Neutral"))
+            trend = escape_html(tick_sent.get("trend", "Neutral"))
 
             current = f"${pick.get('current_price', 0):.2f}"
             entry_low = f"${pick.get('entry_price_low', 0):.2f}"
             entry_high = f"${pick.get('entry_price_high', 0):.2f}"
             stop = f"${pick.get('stop_loss', 0):.2f}"
             conf = pick.get("confidence", 0)
-            rationale = escape_md2(pick.get("rationale", "")[:150])
+            rationale = escape_html(pick.get("rationale", "")[:150])
 
             block = (
-                f"\n*{escape_md2(company)}* \\({escape_md2(ticker)}\\) — *{action_emoji}*\n"
-                f"  Current Price: *{escape_md2(current)}*\n"
-                f"  Good Price to Buy: {escape_md2(entry_low)} \\- {escape_md2(entry_high)}\n"
-                f"  Exit Point \\(If Loss\\): {escape_md2(stop)}\n"
-                f"  Confidence: *{conf}\\/{10}* \\(higher is better\\)\n"
+                f"\n<b>{escape_html(company)}</b> ({escape_html(ticker)}) — <b>{action_emoji}</b>\n"
+                f"  Current Price: <b>{escape_html(current)}</b>\n"
+                f"  Good Price to Buy: {escape_html(entry_low)} - {escape_html(entry_high)}\n"
+                f"  Exit Point (If Loss): {escape_html(stop)}\n"
+                f"  Confidence: <b>{conf}/10</b> (higher is better)\n"
                 f"  Market Outlook: {trend}\n"
-                f"  Why: _{rationale}_"
+                f"  Why: <i>{rationale}</i>"
             )
             sections.append(block)
 
@@ -520,13 +516,13 @@ class ReportBuilder:
         alpha_color = "✅" if float(alpha.rstrip('%')) >= 0 else "⚠️"
 
         lines = [
-            f"\n*💼 YOUR PAPER PORTFOLIO*",
-            f"Started With: {escape_md2(capital)}",
-            f"Worth Today: *{escape_md2(total)}*",
-            f"Cash on Hand: {escape_md2(cash)}",
-            f"Your Gain/Loss: *{ret_color} {escape_md2(ret)}*",
-            f"Market Benchmark \\(S&P 500\\): {escape_md2(spy_ret)}",
-            f"You vs Market: *{alpha_color} {escape_md2(alpha)}*",
+            f"\n<b>💼 YOUR PAPER PORTFOLIO</b>",
+            f"Started With: {escape_html(capital)}",
+            f"Worth Today: <b>{escape_html(total)}</b>",
+            f"Cash on Hand: {escape_html(cash)}",
+            f"Your Gain/Loss: <b>{ret_color} {escape_html(ret)}</b>",
+            f"Market Benchmark (S&amp;P 500): {escape_html(spy_ret)}",
+            f"You vs Market: <b>{alpha_color} {escape_html(alpha)}</b>",
         ]
 
         positions = snapshot.get("positions", [])
@@ -541,20 +537,20 @@ class ReportBuilder:
                 pct = f"{pos['pct_change']:.1f}%"
                 pct_emoji = "📈" if pos['pct_change'] >= 0 else "📉"
                 lines.append(
-                    f"  • {escape_md2(company)} \\({escape_md2(ticker)}\\): "
+                    f"  • {escape_html(company)} ({escape_html(ticker)}): "
                     f"{sh} shares | "
-                    f"Cost: {escape_md2(avg)} → Now: {escape_md2(cur)} "
-                    f"{pct_emoji} {escape_md2(pct)}"
+                    f"Cost: {escape_html(avg)} → Now: {escape_html(cur)} "
+                    f"{pct_emoji} {escape_html(pct)}"
                 )
         else:
-            lines.append("\n_No stocks owned yet\\._")
+            lines.append("\n<i>No stocks owned yet.</i>")
 
         return "\n".join(lines)
 
     def _build_footer(self) -> str:
         return (
-            f"\n_⚠️ This is a practice portfolio \\(no real money invested\\)_\n"
-            f"_Project Alpha • Automated Daily Report_"
+            f"\n<i>⚠️ This is a practice portfolio (no real money invested)</i>\n"
+            f"<i>Project Alpha • Automated Daily Report</i>"
         )
 
     def _split_messages(self, sections: list[str]) -> list[str]:
@@ -573,4 +569,4 @@ class ReportBuilder:
         if current:
             messages.append(current)
 
-        return messages if messages else ["_No data available for today's report\\._"]
+        return messages if messages else ["<i>No data available for today's report.</i>"]

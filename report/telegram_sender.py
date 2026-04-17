@@ -1,7 +1,9 @@
 """Telegram Sender — delivers reports via Telegram Bot API."""
 
+import html
 import json
 import os
+import re
 import time
 
 import requests
@@ -48,7 +50,7 @@ class TelegramSender:
 
     def send_error_alert(self, error_msg: str):
         """Send a brief error notification to all recipients."""
-        text = f"*ALPHA ADVISORY ERROR*\n\n_{self._escape_basic(error_msg[:500])}_"
+        text = f"<b>ALPHA ADVISORY ERROR</b>\n\n<i>{html.escape(error_msg[:500])}</i>"
         for chat_id in self.chat_ids:
             try:
                 self._send_message(text, chat_id)
@@ -61,13 +63,12 @@ class TelegramSender:
         payload = {
             "chat_id": chat_id,
             "text": text,
-            "parse_mode": "MarkdownV2",
+            "parse_mode": "HTML",
             "disable_web_page_preview": True,
         }
         resp = requests.post(self.url, json=payload, timeout=30)
 
         if resp.status_code == 429:
-            # Rate limited — wait and retry
             retry_after = resp.json().get("parameters", {}).get("retry_after", 5)
             logger.warning("Rate limited, waiting %d seconds", retry_after)
             time.sleep(retry_after)
@@ -75,10 +76,10 @@ class TelegramSender:
 
         if not resp.ok:
             logger.error("Telegram API error %d: %s", resp.status_code, resp.text[:300])
-            # If MarkdownV2 fails, try without formatting
             if "can't parse entities" in resp.text.lower():
                 logger.warning("Falling back to plain text")
                 payload["parse_mode"] = ""
+                payload["text"] = re.sub(r"<[^>]+>", "", text)  # strip HTML tags
                 resp2 = requests.post(self.url, json=payload, timeout=30)
                 resp2.raise_for_status()
                 return
@@ -86,9 +87,3 @@ class TelegramSender:
         resp.raise_for_status()
         logger.debug("Message sent successfully")
 
-    @staticmethod
-    def _escape_basic(text: str) -> str:
-        """Minimal escape for error messages."""
-        for ch in "_*[]()~`>#+-=|{}.!":
-            text = text.replace(ch, f"\\{ch}")
-        return text

@@ -1,6 +1,7 @@
 """Shared utilities for Project Alpha."""
 
 import functools
+import html as _html
 import re
 import time
 from datetime import datetime
@@ -9,13 +10,17 @@ import pytz
 
 CHINA_TZ = pytz.timezone("Asia/Shanghai")
 
-# Characters that must be escaped in Telegram MarkdownV2
+# Kept for any legacy callers — new code should use escape_html
 _MD2_ESCAPE = re.compile(r"([_*\[\]()~`>#+\-=|{}.!\\])")
 
 
 def escape_md2(text: str) -> str:
-    """Escape special characters for Telegram MarkdownV2."""
     return _MD2_ESCAPE.sub(r"\\\1", str(text))
+
+
+def escape_html(text: str) -> str:
+    """Escape special characters for Telegram HTML parse mode."""
+    return _html.escape(str(text), quote=False)
 
 
 def now_china() -> datetime:
