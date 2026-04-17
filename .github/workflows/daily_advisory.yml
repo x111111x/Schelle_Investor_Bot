@@ -1,7 +1,9 @@
 name: Daily Advisory Pipeline
 
 on:
-  workflow_dispatch:  # Allow manual trigger via API (cron-job.org triggers this)
+  schedule:
+    - cron: '0 0 * * *'  # 00:00 UTC = 08:00 SGT daily
+  workflow_dispatch:  # Allow manual trigger from GitHub UI or API
 
 jobs:
   run-advisory:
