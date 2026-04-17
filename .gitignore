@@ -1,5 +1,6 @@
 .env
-data/
+data/*
+!data/subscribers.json
 logs/
 __pycache__/
 *.pyc

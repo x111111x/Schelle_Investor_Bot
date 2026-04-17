@@ -8,6 +8,8 @@ on:
 jobs:
   run-advisory:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -27,3 +29,11 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python main.py --run-now
+
+      - name: Persist subscriber list
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/subscribers.json
+          git diff --staged --quiet || git commit -m "Update subscriber list [skip ci]"
+          git push
