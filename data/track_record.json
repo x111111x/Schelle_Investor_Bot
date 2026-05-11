@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T12:23:24.193969Z",
+  "generated_at": "2026-05-11T23:17:12.911587Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -871,66 +871,75 @@
     "open_positions": [
       {
         "ticker": "MSFT",
+        "company_name": "Microsoft Corporation",
         "shares": 13,
         "avg_cost": 381.85,
-        "current_price": 381.85,
-        "pct_change": 0.0
+        "current_price": 415.1199951171875,
+        "pct_change": 8.71
       },
       {
         "ticker": "UNH",
+        "company_name": "UnitedHealth Group Incorporated",
         "shares": 18,
         "avg_cost": 275.59,
-        "current_price": 275.59,
-        "pct_change": 0.0
+        "current_price": 379.9800109863281,
+        "pct_change": 37.88
       },
       {
         "ticker": "SAP",
+        "company_name": "SAP  SE",
         "shares": 28,
         "avg_cost": 175.8,
-        "current_price": 175.8,
-        "pct_change": 0.0
+        "current_price": 173.6999969482422,
+        "pct_change": -1.19
       },
       {
         "ticker": "META",
+        "company_name": "Meta Platforms, Inc.",
         "shares": 8,
         "avg_cost": 593.66,
-        "current_price": 593.66,
-        "pct_change": 0.0
+        "current_price": 609.6300048828125,
+        "pct_change": 2.69
       },
       {
         "ticker": "TSM",
+        "company_name": "Taiwan Semiconductor Manufactur",
         "shares": 15,
         "avg_cost": 329.24,
-        "current_price": 329.24,
-        "pct_change": 0.0
+        "current_price": 411.67999267578125,
+        "pct_change": 25.04
       },
       {
         "ticker": "V",
+        "company_name": "Visa Inc.",
         "shares": 16,
         "avg_cost": 301.62,
-        "current_price": 301.62,
-        "pct_change": 0.0
+        "current_price": 318.7900085449219,
+        "pct_change": 5.69
       },
       {
         "ticker": "NVO",
+        "company_name": "Novo Nordisk A/S",
         "shares": 136,
         "avg_cost": 36.53,
-        "current_price": 36.53,
-        "pct_change": 0.0
+        "current_price": 46.06999969482422,
+        "pct_change": 26.12
       },
       {
         "ticker": "PG",
+        "company_name": "Procter & Gamble Company (The)",
         "shares": 34,
         "avg_cost": 144.28,
-        "current_price": 144.28,
-        "pct_change": 0.0
+        "current_price": 146.4199981689453,
+        "pct_change": 1.48
       },
       {
         "ticker": "BABA",
+        "company_name": "Alibaba Group Holding Limited",
         "shares": 40,
         "avg_cost": 122.41,
-        "current_price": 122.41,
-        "pct_change": 0.0
+        "current_price": 140.05999755859375,
+        "pct_change": 14.42
       }
     ],
     "days_active": 55
