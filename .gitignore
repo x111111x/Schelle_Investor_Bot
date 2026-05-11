@@ -1,6 +1,8 @@
 .env
 data/*
 !data/subscribers.json
+!data/track_record.json
+!data/performance.json
 logs/
 __pycache__/
 *.pyc

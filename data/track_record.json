@@ -1,0 +1,938 @@
+{
+  "generated_at": "2026-05-11T12:23:24.193969Z",
+  "initial_capital": 50000.0,
+  "snapshots": [
+    {
+      "date": "2026-03-17",
+      "positions": {
+        "MSFT": {
+          "shares": 12,
+          "avg_cost": 399.14,
+          "current_price": 399.08,
+          "pct_change": -0.0
+        },
+        "UNH": {
+          "shares": 17,
+          "avg_cost": 285.85,
+          "current_price": 285.9,
+          "pct_change": 0.0
+        },
+        "TSM": {
+          "shares": 14,
+          "avg_cost": 342.62,
+          "current_price": 342.38,
+          "pct_change": -0.1
+        },
+        "SAP": {
+          "shares": 26,
+          "avg_cost": 191.86,
+          "current_price": 191.79,
+          "pct_change": -0.0
+        },
+        "NVO": {
+          "shares": 129,
+          "avg_cost": 38.51,
+          "current_price": 38.51,
+          "pct_change": 0.0
+        }
+      },
+      "total_value": 49995.46,
+      "cash": 20636.41,
+      "return_pct": -0.01,
+      "spy_return": 0.0,
+      "alpha": -0.01
+    },
+    {
+      "date": "2026-03-18",
+      "positions": {
+        "MSFT": {
+          "shares": 12,
+          "avg_cost": 399.41,
+          "current_price": 399.41,
+          "pct_change": 0.0
+        },
+        "UNH": {
+          "shares": 17,
+          "avg_cost": 287.57,
+          "current_price": 287.57,
+          "pct_change": 0.0
+        },
+        "TSM": {
+          "shares": 14,
+          "avg_cost": 345.98,
+          "current_price": 345.98,
+          "pct_change": 0.0
+        },
+        "SAP": {
+          "shares": 26,
+          "avg_cost": 190.12,
+          "current_price": 190.12,
+          "pct_change": 0.0
+        },
+        "NVO": {
+          "shares": 130,
+          "avg_cost": 38.43,
+          "current_price": 38.43,
+          "pct_change": 0.0
+        },
+        "PG": {
+          "shares": 33,
+          "avg_cost": 151.48,
+          "current_price": 151.48,
+          "pct_change": 0.0
+        }
+      },
+      "total_value": 50000.0,
+      "cash": 15601.45,
+      "return_pct": 0.0,
+      "spy_return": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-19",
+      "positions": {
+        "MSFT": {
+          "shares": 12,
+          "avg_cost": 391.79,
+          "current_price": 391.79,
+          "pct_change": 0.0
+        },
+        "UNH": {
+          "shares": 17,
+          "avg_cost": 284.33,
+          "current_price": 284.33,
+          "pct_change": 0.0
+        },
+        "TSM": {
+          "shares": 14,
+          "avg_cost": 339.57,
+          "current_price": 339.57,
+          "pct_change": 0.0
+        },
+        "SAP": {
+          "shares": 27,
+          "avg_cost": 183.74,
+          "current_price": 183.74,
+          "pct_change": 0.0
+        },
+        "NVO": {
+          "shares": 133,
+          "avg_cost": 37.45,
+          "current_price": 37.45,
+          "pct_change": 0.0
+        },
+        "PG": {
+          "shares": 34,
+          "avg_cost": 146.71,
+          "current_price": 146.71,
+          "pct_change": 0.0
+        },
+        "BABA": {
+          "shares": 37,
+          "avg_cost": 134.43,
+          "current_price": 134.43,
+          "pct_change": 0.0
+        }
+      },
+      "total_value": 50000.0,
+      "cash": 11022.73,
+      "return_pct": 0.0,
+      "spy_return": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-20",
+      "positions": {
+        "MSFT": {
+          "shares": 12,
+          "avg_cost": 389.02,
+          "current_price": 389.02,
+          "pct_change": 0.0
+        },
+        "UNH": {
+          "shares": 17,
+          "avg_cost": 280.44,
+          "current_price": 280.44,
+          "pct_change": 0.0
+        },
+        "TSM": {
+          "shares": 14,
+          "avg_cost": 338.79,
+          "current_price": 338.79,
+          "pct_change": 0.0
+        },
+        "V": {
+          "shares": 16,
+          "avg_cost": 299.71,
+          "current_price": 299.71,
+          "pct_change": 0.0
+        },
+        "SAP": {
+          "shares": 27,
+          "avg_cost": 185.01,
+          "current_price": 185.01,
+          "pct_change": 0.0
+        },
+        "NVO": {
+          "shares": 134,
+          "avg_cost": 37.08,
+          "current_price": 37.08,
+          "pct_change": 0.0
+        },
+        "PG": {
+          "shares": 34,
+          "avg_cost": 144.84,
+          "current_price": 144.84,
+          "pct_change": 0.0
+        },
+        "BABA": {
+          "shares": 40,
+          "avg_cost": 124.9,
+          "current_price": 124.9,
+          "pct_change": 0.0
+        }
+      },
+      "total_value": 50000.0,
+      "cash": 11141.31,
+      "return_pct": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-21",
+      "positions": {
+        "MSFT": {
+          "shares": 13,
+          "avg_cost": 381.87,
+          "current_price": 381.87,
+          "pct_change": 0.0
+        },
+        "UNH": {
+          "shares": 18,
+          "avg_cost": 275.59,
+          "current_price": 275.59,
+          "pct_change": 0.0
+        },
+        "SAP": {
+          "shares": 28,
+          "avg_cost": 175.8,
+          "current_price": 175.8,
+          "pct_change": 0.0
+        },
+        "META": {
+          "shares": 8,
+          "avg_cost": 593.66,
+          "current_price": 593.66,
+          "pct_change": 0.0
+        },
+        "TSM": {
+          "shares": 15,
+          "avg_cost": 329.24,
+          "current_price": 329.24,
+          "pct_change": 0.0
+        },
+        "V": {
+          "shares": 16,
+          "avg_cost": 301.62,
+          "current_price": 301.62,
+          "pct_change": 0.0
+        },
+        "NVO": {
+          "shares": 136,
+          "avg_cost": 36.53,
+          "current_price": 36.53,
+          "pct_change": 0.0
+        },
+        "PG": {
+          "shares": 34,
+          "avg_cost": 144.28,
+          "current_price": 144.28,
+          "pct_change": 0.0
+        },
+        "BABA": {
+          "shares": 40,
+          "avg_cost": 122.41,
+          "current_price": 122.41,
+          "pct_change": 0.0
+        }
+      },
+      "total_value": 50000.0,
+      "cash": 5868.87,
+      "return_pct": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-22",
+      "positions": {
+        "MSFT": {
+          "shares": 13,
+          "avg_cost": 381.87,
+          "current_price": 381.87,
+          "pct_change": 0.0
+        },
+        "UNH": {
+          "shares": 18,
+          "avg_cost": 275.59,
+          "current_price": 275.59,
+          "pct_change": 0.0
+        },
+        "SAP": {
+          "shares": 28,
+          "avg_cost": 175.8,
+          "current_price": 175.8,
+          "pct_change": 0.0
+        },
+        "META": {
+          "shares": 8,
+          "avg_cost": 593.66,
+          "current_price": 593.66,
+          "pct_change": 0.0
+        },
+        "TSM": {
+          "shares": 15,
+          "avg_cost": 329.24,
+          "current_price": 329.24,
+          "pct_change": 0.0
+        },
+        "V": {
+          "shares": 16,
+          "avg_cost": 301.62,
+          "current_price": 301.62,
+          "pct_change": 0.0
+        },
+        "NVO": {
+          "shares": 136,
+          "avg_cost": 36.53,
+          "current_price": 36.53,
+          "pct_change": 0.0
+        },
+        "PG": {
+          "shares": 34,
+          "avg_cost": 144.28,
+          "current_price": 144.28,
+          "pct_change": 0.0
+        },
+        "BABA": {
+          "shares": 40,
+          "avg_cost": 122.41,
+          "current_price": 122.41,
+          "pct_change": 0.0
+        }
+      },
+      "total_value": 50000.0,
+      "cash": 5868.87,
+      "return_pct": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-23",
+      "positions": {
+        "MSFT": {
+          "shares": 13,
+          "avg_cost": 381.85,
+          "current_price": 381.85,
+          "pct_change": 0.0
+        },
+        "UNH": {
+          "shares": 18,
+          "avg_cost": 275.59,
+          "current_price": 275.59,
+          "pct_change": 0.0
+        },
+        "SAP": {
+          "shares": 28,
+          "avg_cost": 175.8,
+          "current_price": 175.8,
+          "pct_change": 0.0
+        },
+        "META": {
+          "shares": 8,
+          "avg_cost": 593.66,
+          "current_price": 593.66,
+          "pct_change": 0.0
+        },
+        "TSM": {
+          "shares": 15,
+          "avg_cost": 329.24,
+          "current_price": 329.24,
+          "pct_change": 0.0
+        },
+        "V": {
+          "shares": 16,
+          "avg_cost": 301.62,
+          "current_price": 301.62,
+          "pct_change": 0.0
+        },
+        "NVO": {
+          "shares": 136,
+          "avg_cost": 36.53,
+          "current_price": 36.53,
+          "pct_change": 0.0
+        },
+        "PG": {
+          "shares": 34,
+          "avg_cost": 144.28,
+          "current_price": 144.28,
+          "pct_change": 0.0
+        },
+        "BABA": {
+          "shares": 40,
+          "avg_cost": 122.41,
+          "current_price": 122.41,
+          "pct_change": 0.0
+        }
+      },
+      "total_value": 50000.0,
+      "cash": 5869.13,
+      "return_pct": 0.0,
+      "alpha": 0.0
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-03-17",
+      "action": "BUY",
+      "ticker": "MSFT",
+      "shares": 12,
+      "price": 399.14,
+      "total": 4789.68
+    },
+    {
+      "date": "2026-03-17",
+      "action": "BUY",
+      "ticker": "UNH",
+      "shares": 17,
+      "price": 285.85,
+      "total": 4859.45
+    },
+    {
+      "date": "2026-03-17",
+      "action": "BUY",
+      "ticker": "TSM",
+      "shares": 14,
+      "price": 342.62,
+      "total": 4796.68
+    },
+    {
+      "date": "2026-03-17",
+      "action": "BUY",
+      "ticker": "SAP",
+      "shares": 26,
+      "price": 191.86,
+      "total": 4988.36
+    },
+    {
+      "date": "2026-03-17",
+      "action": "BUY",
+      "ticker": "NVO",
+      "shares": 129,
+      "price": 38.51,
+      "total": 4967.79
+    },
+    {
+      "date": "2026-03-18",
+      "action": "BUY",
+      "ticker": "PG",
+      "shares": 33,
+      "price": 151.48,
+      "total": 4998.84
+    },
+    {
+      "date": "2026-03-19",
+      "action": "BUY",
+      "ticker": "BABA",
+      "shares": 37,
+      "price": 134.43,
+      "total": 4973.91
+    },
+    {
+      "date": "2026-03-20",
+      "action": "BUY",
+      "ticker": "V",
+      "shares": 16,
+      "price": 299.71,
+      "total": 4795.36
+    },
+    {
+      "date": "2026-03-21",
+      "action": "BUY",
+      "ticker": "META",
+      "shares": 8,
+      "price": 593.66,
+      "total": 4749.28
+    }
+  ],
+  "daily_values": [
+    {
+      "date": "2026-03-17",
+      "total_value": 49995.46,
+      "return_pct": -0.01,
+      "spy_return": 0.0,
+      "alpha": -0.01
+    },
+    {
+      "date": "2026-03-18",
+      "total_value": 50000.0,
+      "return_pct": 0.0,
+      "spy_return": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-19",
+      "total_value": 50000.0,
+      "return_pct": 0.0,
+      "spy_return": 0.0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-20",
+      "total_value": 50000.0,
+      "return_pct": 0.0,
+      "spy_return": 0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-21",
+      "total_value": 50000.0,
+      "return_pct": 0.0,
+      "spy_return": 0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-22",
+      "total_value": 50000.0,
+      "return_pct": 0.0,
+      "spy_return": 0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-23",
+      "total_value": 50000.0,
+      "return_pct": 0.0,
+      "spy_return": 0,
+      "alpha": 0.0
+    },
+    {
+      "date": "2026-03-24",
+      "total_value": 49764.06,
+      "return_pct": -0.47,
+      "spy_return": -2.36,
+      "alpha": 1.89
+    },
+    {
+      "date": "2026-03-25",
+      "total_value": 49883.84,
+      "return_pct": -0.23,
+      "spy_return": -1.82,
+      "alpha": 1.59
+    },
+    {
+      "date": "2026-03-26",
+      "total_value": 48808.15,
+      "return_pct": -2.38,
+      "spy_return": -3.57,
+      "alpha": 1.19
+    },
+    {
+      "date": "2026-03-27",
+      "total_value": 47970.28,
+      "return_pct": -4.06,
+      "spy_return": -5.21,
+      "alpha": 1.15
+    },
+    {
+      "date": "2026-03-28",
+      "total_value": 47970.28,
+      "return_pct": -4.06,
+      "spy_return": -5.21,
+      "alpha": 1.15
+    },
+    {
+      "date": "2026-03-29",
+      "total_value": 47970.28,
+      "return_pct": -4.06,
+      "spy_return": -5.21,
+      "alpha": 1.15
+    },
+    {
+      "date": "2026-03-30",
+      "total_value": 48272.96,
+      "return_pct": -3.45,
+      "spy_return": -5.53,
+      "alpha": 2.08
+    },
+    {
+      "date": "2026-03-31",
+      "total_value": 49636.72,
+      "return_pct": -0.73,
+      "spy_return": -2.78,
+      "alpha": 2.05
+    },
+    {
+      "date": "2026-04-01",
+      "total_value": 49623.95,
+      "return_pct": -0.75,
+      "spy_return": -2.05,
+      "alpha": 1.3
+    },
+    {
+      "date": "2026-04-02",
+      "total_value": 49677.24,
+      "return_pct": -0.65,
+      "spy_return": -1.96,
+      "alpha": 1.31
+    },
+    {
+      "date": "2026-04-03",
+      "total_value": 49677.24,
+      "return_pct": -0.65,
+      "spy_return": -1.96,
+      "alpha": 1.31
+    },
+    {
+      "date": "2026-04-04",
+      "total_value": 49677.24,
+      "return_pct": -0.65,
+      "spy_return": -1.96,
+      "alpha": 1.31
+    },
+    {
+      "date": "2026-04-05",
+      "total_value": 49677.24,
+      "return_pct": -0.65,
+      "spy_return": -1.96,
+      "alpha": 1.31
+    },
+    {
+      "date": "2026-04-06",
+      "total_value": 49751.8,
+      "return_pct": -0.5,
+      "spy_return": -1.5,
+      "alpha": 1.0
+    },
+    {
+      "date": "2026-04-07",
+      "total_value": 50110.25,
+      "return_pct": 0.22,
+      "spy_return": -1.46,
+      "alpha": 1.68
+    },
+    {
+      "date": "2026-04-08",
+      "total_value": 51247.92,
+      "return_pct": 2.5,
+      "spy_return": 1.05,
+      "alpha": 1.45
+    },
+    {
+      "date": "2026-04-09",
+      "total_value": 51361.04,
+      "return_pct": 2.72,
+      "spy_return": 1.64,
+      "alpha": 1.08
+    },
+    {
+      "date": "2026-04-10",
+      "total_value": 51219.26,
+      "return_pct": 2.44,
+      "spy_return": 1.57,
+      "alpha": 0.87
+    },
+    {
+      "date": "2026-04-11",
+      "total_value": 51219.26,
+      "return_pct": 2.44,
+      "spy_return": 1.57,
+      "alpha": 0.87
+    },
+    {
+      "date": "2026-04-12",
+      "total_value": 51219.26,
+      "return_pct": 2.44,
+      "spy_return": 1.57,
+      "alpha": 0.87
+    },
+    {
+      "date": "2026-04-13",
+      "total_value": 51867.72,
+      "return_pct": 3.74,
+      "spy_return": 2.56,
+      "alpha": 1.18
+    },
+    {
+      "date": "2026-04-14",
+      "total_value": 52707.32,
+      "return_pct": 5.41,
+      "spy_return": 3.81,
+      "alpha": 1.6
+    },
+    {
+      "date": "2026-04-15",
+      "total_value": 53399.92,
+      "return_pct": 6.8,
+      "spy_return": 4.63,
+      "alpha": 2.17
+    },
+    {
+      "date": "2026-04-16",
+      "total_value": 53756.58,
+      "return_pct": 7.51,
+      "spy_return": 4.89,
+      "alpha": 2.62
+    },
+    {
+      "date": "2026-04-17",
+      "total_value": 54443.82,
+      "return_pct": 8.89,
+      "spy_return": 6.16,
+      "alpha": 2.73
+    },
+    {
+      "date": "2026-04-18",
+      "total_value": 54443.82,
+      "return_pct": 8.89,
+      "spy_return": 6.16,
+      "alpha": 2.73
+    },
+    {
+      "date": "2026-04-19",
+      "total_value": 54443.82,
+      "return_pct": 8.89,
+      "spy_return": 6.16,
+      "alpha": 2.73
+    },
+    {
+      "date": "2026-04-20",
+      "total_value": 53920.61,
+      "return_pct": 7.84,
+      "spy_return": 5.94,
+      "alpha": 1.9
+    },
+    {
+      "date": "2026-04-21",
+      "total_value": 53877.29,
+      "return_pct": 7.75,
+      "spy_return": 5.25,
+      "alpha": 2.5
+    },
+    {
+      "date": "2026-04-22",
+      "total_value": 54441.56,
+      "return_pct": 8.88,
+      "spy_return": 6.32,
+      "alpha": 2.56
+    },
+    {
+      "date": "2026-04-23",
+      "total_value": 53527.87,
+      "return_pct": 7.06,
+      "spy_return": 5.9,
+      "alpha": 1.16
+    },
+    {
+      "date": "2026-04-24",
+      "total_value": 55059.08,
+      "return_pct": 10.12,
+      "spy_return": 6.72,
+      "alpha": 3.4
+    },
+    {
+      "date": "2026-04-25",
+      "total_value": 55059.08,
+      "return_pct": 10.12,
+      "spy_return": 6.72,
+      "alpha": 3.4
+    },
+    {
+      "date": "2026-04-26",
+      "total_value": 55059.08,
+      "return_pct": 10.12,
+      "spy_return": 6.72,
+      "alpha": 3.4
+    },
+    {
+      "date": "2026-04-27",
+      "total_value": 54957.21,
+      "return_pct": 9.91,
+      "spy_return": 6.91,
+      "alpha": 3.0
+    },
+    {
+      "date": "2026-04-28",
+      "total_value": 54935.48,
+      "return_pct": 9.87,
+      "spy_return": 6.39,
+      "alpha": 3.48
+    },
+    {
+      "date": "2026-04-29",
+      "total_value": 55036.3,
+      "return_pct": 10.07,
+      "spy_return": 6.37,
+      "alpha": 3.7
+    },
+    {
+      "date": "2026-04-30",
+      "total_value": 54635.34,
+      "return_pct": 9.27,
+      "spy_return": 7.43,
+      "alpha": 1.84
+    },
+    {
+      "date": "2026-05-01",
+      "total_value": 54912.52,
+      "return_pct": 9.83,
+      "spy_return": 7.73,
+      "alpha": 2.1
+    },
+    {
+      "date": "2026-05-02",
+      "total_value": 54912.52,
+      "return_pct": 9.83,
+      "spy_return": 7.73,
+      "alpha": 2.1
+    },
+    {
+      "date": "2026-05-03",
+      "total_value": 54912.52,
+      "return_pct": 9.83,
+      "spy_return": 7.73,
+      "alpha": 2.1
+    },
+    {
+      "date": "2026-05-04",
+      "total_value": 55018.59,
+      "return_pct": 10.04,
+      "spy_return": 7.33,
+      "alpha": 2.71
+    },
+    {
+      "date": "2026-05-05",
+      "total_value": 54821.28,
+      "return_pct": 9.64,
+      "spy_return": 8.19,
+      "alpha": 1.45
+    },
+    {
+      "date": "2026-05-06",
+      "total_value": 55915.19,
+      "return_pct": 11.83,
+      "spy_return": 9.7,
+      "alpha": 2.13
+    },
+    {
+      "date": "2026-05-07",
+      "total_value": 56008.39,
+      "return_pct": 12.02,
+      "spy_return": 9.36,
+      "alpha": 2.66
+    },
+    {
+      "date": "2026-05-08",
+      "total_value": 55968.01,
+      "return_pct": 11.94,
+      "spy_return": 10.26,
+      "alpha": 1.68
+    },
+    {
+      "date": "2026-05-09",
+      "total_value": 55968.01,
+      "return_pct": 11.94,
+      "spy_return": 10.26,
+      "alpha": 1.68
+    },
+    {
+      "date": "2026-05-10",
+      "total_value": 55968.01,
+      "return_pct": 11.94,
+      "spy_return": 10.26,
+      "alpha": 1.68
+    },
+    {
+      "date": "2026-05-11",
+      "total_value": 55968.01,
+      "return_pct": 11.94,
+      "spy_return": 10.26,
+      "alpha": 1.68
+    }
+  ],
+  "kpis": {
+    "start_date": "2026-03-17",
+    "end_date": "2026-05-11",
+    "initial_capital": 50000.0,
+    "current_value": 55968.01,
+    "total_return_pct": 11.94,
+    "spy_return_pct": 10.26,
+    "alpha_pct": 1.68,
+    "total_trades": 9,
+    "closed_trades": 0,
+    "win_rate": 0,
+    "avg_gain_pct": 0,
+    "avg_loss_pct": 0,
+    "open_positions": [
+      {
+        "ticker": "MSFT",
+        "shares": 13,
+        "avg_cost": 381.85,
+        "current_price": 381.85,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "UNH",
+        "shares": 18,
+        "avg_cost": 275.59,
+        "current_price": 275.59,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "SAP",
+        "shares": 28,
+        "avg_cost": 175.8,
+        "current_price": 175.8,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "META",
+        "shares": 8,
+        "avg_cost": 593.66,
+        "current_price": 593.66,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "TSM",
+        "shares": 15,
+        "avg_cost": 329.24,
+        "current_price": 329.24,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "V",
+        "shares": 16,
+        "avg_cost": 301.62,
+        "current_price": 301.62,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "NVO",
+        "shares": 136,
+        "avg_cost": 36.53,
+        "current_price": 36.53,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "PG",
+        "shares": 34,
+        "avg_cost": 144.28,
+        "current_price": 144.28,
+        "pct_change": 0.0
+      },
+      {
+        "ticker": "BABA",
+        "shares": 40,
+        "avg_cost": 122.41,
+        "current_price": 122.41,
+        "pct_change": 0.0
+      }
+    ],
+    "days_active": 55
+  }
+}
