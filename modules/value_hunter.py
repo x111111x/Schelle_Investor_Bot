@@ -28,8 +28,8 @@ class ValueHunter:
                 logger.warning("Failed to analyze %s: %s", ticker, e)
             time.sleep(0.5)  # rate limit
 
-        # Sort by confidence descending
-        results.sort(key=lambda x: x["confidence"], reverse=True)
+        # Sort by confidence descending, then by sort_key descending within ties
+        results.sort(key=lambda x: (x["confidence"], x.get("sort_key", 0.0)), reverse=True)
         logger.info("Scan complete — %d recommendations generated", len(results))
         return results
 
@@ -121,6 +121,20 @@ class ValueHunter:
         # Cap at 10
         score = min(score, 10)
 
+        # Continuous tiebreaker within the same integer score (higher = more attractive).
+        # Uses raw metric values so two stocks with the same score are ranked by
+        # actual cheapness rather than watchlist position.
+        sort_key = 0.0
+        if price_to_fcf and price_to_fcf > 0:
+            sort_key += 10.0 / price_to_fcf      # FCF yield: P/FCF 5 → +2.0, P/FCF 20 → +0.5
+        if trailing_pe and trailing_pe > 0:
+            sort_key += 5.0 / trailing_pe        # earnings yield: P/E 10 → +0.5, P/E 5 → +1.0
+        if week52_low and week52_high and week52_high > week52_low:
+            range_pos = (current - week52_low) / (week52_high - week52_low)
+            sort_key += (1.0 - range_pos)        # 0 = at 52w high, 1 = at 52w low
+        if earnings_growth and earnings_growth > 0:
+            sort_key += min(earnings_growth, 1.0)  # capped at 1.0 to prevent outliers dominating
+
         # Determine action
         if score >= BUY_THRESHOLD:
             action = "Buy"
@@ -147,6 +161,7 @@ class ValueHunter:
             "entry_price_high": entry_high,
             "stop_loss": stop_loss,
             "confidence": score,
+            "sort_key": round(sort_key, 4),
             "rationale": rationale,
             "metrics": {
                 "trailing_pe": trailing_pe,
