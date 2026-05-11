@@ -317,29 +317,53 @@ def compute_daily_values(
             "alpha": round(alpha, 2),
         })
 
-    return daily
+    return daily, price_cache
 
 
 # ── Compute KPIs from trades ────────────────────────────────────────────────────
 
-def compute_kpis(trades: list[dict], daily_values: list[dict], snapshots: list[dict]) -> dict:
+def compute_kpis(
+    trades: list[dict],
+    daily_values: list[dict],
+    snapshots: list[dict],
+    price_cache: dict | None = None,
+) -> dict:
     sells = [t for t in trades if t["action"] == "SELL" and "pnl_pct" in t]
     wins = [t for t in sells if t["pnl_pct"] >= 0]
     losses = [t for t in sells if t["pnl_pct"] < 0]
 
     last = daily_values[-1] if daily_values else {}
 
-    # open positions from last snapshot
+    # open positions from last snapshot — refresh pct_change with today's prices
     open_positions = []
     if snapshots:
         last_snap = snapshots[-1]
+        today = date.today()
         for ticker, pos in last_snap["positions"].items():
+            current_price = pos["current_price"]
+            pct_change = pos["pct_change"]
+            if price_cache and ticker in price_cache:
+                series = price_cache[ticker]
+                for offset in range(0, 10):
+                    ds = (today - timedelta(days=offset)).strftime("%Y-%m-%d")
+                    if ds in series:
+                        current_price = series[ds]
+                        pct_change = round(
+                            (current_price - pos["avg_cost"]) / pos["avg_cost"] * 100, 2
+                        )
+                        break
+            try:
+                info = yf.Ticker(ticker).info
+                company_name = info.get("shortName") or info.get("longName") or ticker
+            except Exception:
+                company_name = ticker
             open_positions.append({
                 "ticker": ticker,
+                "company_name": company_name,
                 "shares": pos["shares"],
                 "avg_cost": pos["avg_cost"],
-                "current_price": pos["current_price"],
-                "pct_change": pos["pct_change"],
+                "current_price": current_price,
+                "pct_change": pct_change,
             })
 
     return {
@@ -400,10 +424,10 @@ def main():
     end_date = date.today().strftime("%Y-%m-%d")
 
     print(f"Computing daily portfolio values: {start_date} -> {end_date}")
-    daily_values = compute_daily_values(snapshots, start_date, end_date)
+    daily_values, price_cache = compute_daily_values(snapshots, start_date, end_date)
     print(f"  Generated {len(daily_values)} daily data points")
 
-    kpis = compute_kpis(trades, daily_values, snapshots)
+    kpis = compute_kpis(trades, daily_values, snapshots, price_cache=price_cache)
 
     # Save track_record.json (full history)
     track_record = {
