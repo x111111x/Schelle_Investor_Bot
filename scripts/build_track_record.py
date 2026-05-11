@@ -352,8 +352,14 @@ def compute_kpis(
                             (current_price - pos["avg_cost"]) / pos["avg_cost"] * 100, 2
                         )
                         break
+            try:
+                info = yf.Ticker(ticker).info
+                company_name = info.get("shortName") or info.get("longName") or ticker
+            except Exception:
+                company_name = ticker
             open_positions.append({
                 "ticker": ticker,
+                "company_name": company_name,
                 "shares": pos["shares"],
                 "avg_cost": pos["avg_cost"],
                 "current_price": current_price,
