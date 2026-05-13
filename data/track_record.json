@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T23:23:45.142578Z",
+  "generated_at": "2026-05-13T23:27:17.265246Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -513,363 +513,370 @@
     },
     {
       "date": "2026-03-24",
-      "total_value": 49764.06,
-      "return_pct": -0.47,
+      "total_value": 49754.01,
+      "return_pct": -0.49,
       "spy_return": -2.36,
-      "alpha": 1.89
+      "alpha": 1.87
     },
     {
       "date": "2026-03-25",
-      "total_value": 49883.84,
-      "return_pct": -0.23,
+      "total_value": 49873.75,
+      "return_pct": -0.25,
       "spy_return": -1.82,
-      "alpha": 1.59
+      "alpha": 1.57
     },
     {
       "date": "2026-03-26",
-      "total_value": 48808.15,
-      "return_pct": -2.38,
+      "total_value": 48798.04,
+      "return_pct": -2.4,
       "spy_return": -3.57,
-      "alpha": 1.19
+      "alpha": 1.17
     },
     {
       "date": "2026-03-27",
-      "total_value": 47970.28,
-      "return_pct": -4.06,
+      "total_value": 47960.5,
+      "return_pct": -4.08,
       "spy_return": -5.21,
-      "alpha": 1.15
+      "alpha": 1.13
     },
     {
       "date": "2026-03-28",
-      "total_value": 47970.28,
-      "return_pct": -4.06,
+      "total_value": 47960.5,
+      "return_pct": -4.08,
       "spy_return": -5.21,
-      "alpha": 1.15
+      "alpha": 1.13
     },
     {
       "date": "2026-03-29",
-      "total_value": 47970.28,
-      "return_pct": -4.06,
+      "total_value": 47960.5,
+      "return_pct": -4.08,
       "spy_return": -5.21,
-      "alpha": 1.15
+      "alpha": 1.13
     },
     {
       "date": "2026-03-30",
-      "total_value": 48272.96,
-      "return_pct": -3.45,
+      "total_value": 48263.05,
+      "return_pct": -3.47,
       "spy_return": -5.53,
-      "alpha": 2.08
+      "alpha": 2.06
     },
     {
       "date": "2026-03-31",
-      "total_value": 49636.72,
-      "return_pct": -0.73,
+      "total_value": 49626.71,
+      "return_pct": -0.75,
       "spy_return": -2.78,
-      "alpha": 2.05
+      "alpha": 2.03
     },
     {
       "date": "2026-04-01",
-      "total_value": 49623.95,
-      "return_pct": -0.75,
+      "total_value": 49614.07,
+      "return_pct": -0.77,
       "spy_return": -2.05,
-      "alpha": 1.3
+      "alpha": 1.28
     },
     {
       "date": "2026-04-02",
-      "total_value": 49677.24,
-      "return_pct": -0.65,
+      "total_value": 49667.29,
+      "return_pct": -0.67,
       "spy_return": -1.96,
-      "alpha": 1.31
+      "alpha": 1.29
     },
     {
       "date": "2026-04-03",
-      "total_value": 49677.24,
-      "return_pct": -0.65,
+      "total_value": 49667.29,
+      "return_pct": -0.67,
       "spy_return": -1.96,
-      "alpha": 1.31
+      "alpha": 1.29
     },
     {
       "date": "2026-04-04",
-      "total_value": 49677.24,
-      "return_pct": -0.65,
+      "total_value": 49667.29,
+      "return_pct": -0.67,
       "spy_return": -1.96,
-      "alpha": 1.31
+      "alpha": 1.29
     },
     {
       "date": "2026-04-05",
-      "total_value": 49677.24,
-      "return_pct": -0.65,
+      "total_value": 49667.29,
+      "return_pct": -0.67,
       "spy_return": -1.96,
-      "alpha": 1.31
+      "alpha": 1.29
     },
     {
       "date": "2026-04-06",
-      "total_value": 49751.8,
-      "return_pct": -0.5,
+      "total_value": 49741.76,
+      "return_pct": -0.52,
       "spy_return": -1.5,
-      "alpha": 1.0
+      "alpha": 0.98
     },
     {
       "date": "2026-04-07",
-      "total_value": 50110.25,
-      "return_pct": 0.22,
+      "total_value": 50100.24,
+      "return_pct": 0.2,
       "spy_return": -1.46,
-      "alpha": 1.68
+      "alpha": 1.66
     },
     {
       "date": "2026-04-08",
-      "total_value": 51247.92,
-      "return_pct": 2.5,
+      "total_value": 51237.69,
+      "return_pct": 2.48,
       "spy_return": 1.05,
-      "alpha": 1.45
+      "alpha": 1.43
     },
     {
       "date": "2026-04-09",
-      "total_value": 51361.04,
-      "return_pct": 2.72,
+      "total_value": 51350.84,
+      "return_pct": 2.7,
       "spy_return": 1.64,
-      "alpha": 1.08
+      "alpha": 1.06
     },
     {
       "date": "2026-04-10",
-      "total_value": 51219.26,
-      "return_pct": 2.44,
+      "total_value": 51209.19,
+      "return_pct": 2.42,
       "spy_return": 1.57,
-      "alpha": 0.87
+      "alpha": 0.85
     },
     {
       "date": "2026-04-11",
-      "total_value": 51219.26,
-      "return_pct": 2.44,
+      "total_value": 51209.19,
+      "return_pct": 2.42,
       "spy_return": 1.57,
-      "alpha": 0.87
+      "alpha": 0.85
     },
     {
       "date": "2026-04-12",
-      "total_value": 51219.26,
-      "return_pct": 2.44,
+      "total_value": 51209.19,
+      "return_pct": 2.42,
       "spy_return": 1.57,
-      "alpha": 0.87
+      "alpha": 0.85
     },
     {
       "date": "2026-04-13",
-      "total_value": 51867.72,
-      "return_pct": 3.74,
+      "total_value": 51857.48,
+      "return_pct": 3.71,
       "spy_return": 2.56,
-      "alpha": 1.18
+      "alpha": 1.15
     },
     {
       "date": "2026-04-14",
-      "total_value": 52707.32,
-      "return_pct": 5.41,
+      "total_value": 52697.01,
+      "return_pct": 5.39,
       "spy_return": 3.81,
-      "alpha": 1.6
+      "alpha": 1.58
     },
     {
       "date": "2026-04-15",
-      "total_value": 53399.92,
-      "return_pct": 6.8,
+      "total_value": 53389.46,
+      "return_pct": 6.78,
       "spy_return": 4.63,
-      "alpha": 2.17
+      "alpha": 2.15
     },
     {
       "date": "2026-04-16",
-      "total_value": 53756.58,
-      "return_pct": 7.51,
+      "total_value": 53746.15,
+      "return_pct": 7.49,
       "spy_return": 4.89,
-      "alpha": 2.62
+      "alpha": 2.6
     },
     {
       "date": "2026-04-17",
-      "total_value": 54443.82,
-      "return_pct": 8.89,
+      "total_value": 54433.33,
+      "return_pct": 8.87,
       "spy_return": 6.16,
-      "alpha": 2.73
-    },
-    {
-      "date": "2026-04-18",
-      "total_value": 54443.82,
-      "return_pct": 8.89,
-      "spy_return": 6.16,
-      "alpha": 2.73
-    },
-    {
-      "date": "2026-04-19",
-      "total_value": 54443.82,
-      "return_pct": 8.89,
-      "spy_return": 6.16,
-      "alpha": 2.73
-    },
-    {
-      "date": "2026-04-20",
-      "total_value": 53920.61,
-      "return_pct": 7.84,
-      "spy_return": 5.94,
-      "alpha": 1.9
-    },
-    {
-      "date": "2026-04-21",
-      "total_value": 53877.29,
-      "return_pct": 7.75,
-      "spy_return": 5.25,
-      "alpha": 2.5
-    },
-    {
-      "date": "2026-04-22",
-      "total_value": 54441.56,
-      "return_pct": 8.88,
-      "spy_return": 6.32,
-      "alpha": 2.56
-    },
-    {
-      "date": "2026-04-23",
-      "total_value": 53527.87,
-      "return_pct": 7.06,
-      "spy_return": 5.9,
-      "alpha": 1.16
-    },
-    {
-      "date": "2026-04-24",
-      "total_value": 55059.08,
-      "return_pct": 10.12,
-      "spy_return": 6.72,
-      "alpha": 3.4
-    },
-    {
-      "date": "2026-04-25",
-      "total_value": 55059.08,
-      "return_pct": 10.12,
-      "spy_return": 6.72,
-      "alpha": 3.4
-    },
-    {
-      "date": "2026-04-26",
-      "total_value": 55059.08,
-      "return_pct": 10.12,
-      "spy_return": 6.72,
-      "alpha": 3.4
-    },
-    {
-      "date": "2026-04-27",
-      "total_value": 54957.21,
-      "return_pct": 9.91,
-      "spy_return": 6.91,
-      "alpha": 3.0
-    },
-    {
-      "date": "2026-04-28",
-      "total_value": 54935.48,
-      "return_pct": 9.87,
-      "spy_return": 6.39,
-      "alpha": 3.48
-    },
-    {
-      "date": "2026-04-29",
-      "total_value": 55036.3,
-      "return_pct": 10.07,
-      "spy_return": 6.37,
-      "alpha": 3.7
-    },
-    {
-      "date": "2026-04-30",
-      "total_value": 54635.34,
-      "return_pct": 9.27,
-      "spy_return": 7.43,
-      "alpha": 1.84
-    },
-    {
-      "date": "2026-05-01",
-      "total_value": 54912.52,
-      "return_pct": 9.83,
-      "spy_return": 7.73,
-      "alpha": 2.1
-    },
-    {
-      "date": "2026-05-02",
-      "total_value": 54912.52,
-      "return_pct": 9.83,
-      "spy_return": 7.73,
-      "alpha": 2.1
-    },
-    {
-      "date": "2026-05-03",
-      "total_value": 54912.52,
-      "return_pct": 9.83,
-      "spy_return": 7.73,
-      "alpha": 2.1
-    },
-    {
-      "date": "2026-05-04",
-      "total_value": 55018.59,
-      "return_pct": 10.04,
-      "spy_return": 7.33,
       "alpha": 2.71
     },
     {
+      "date": "2026-04-18",
+      "total_value": 54433.33,
+      "return_pct": 8.87,
+      "spy_return": 6.16,
+      "alpha": 2.71
+    },
+    {
+      "date": "2026-04-19",
+      "total_value": 54433.33,
+      "return_pct": 8.87,
+      "spy_return": 6.16,
+      "alpha": 2.71
+    },
+    {
+      "date": "2026-04-20",
+      "total_value": 53910.22,
+      "return_pct": 7.82,
+      "spy_return": 5.94,
+      "alpha": 1.88
+    },
+    {
+      "date": "2026-04-21",
+      "total_value": 53867.03,
+      "return_pct": 7.73,
+      "spy_return": 5.25,
+      "alpha": 2.48
+    },
+    {
+      "date": "2026-04-22",
+      "total_value": 54431.25,
+      "return_pct": 8.86,
+      "spy_return": 6.32,
+      "alpha": 2.54
+    },
+    {
+      "date": "2026-04-23",
+      "total_value": 53517.65,
+      "return_pct": 7.04,
+      "spy_return": 5.9,
+      "alpha": 1.14
+    },
+    {
+      "date": "2026-04-24",
+      "total_value": 55048.84,
+      "return_pct": 10.1,
+      "spy_return": 6.72,
+      "alpha": 3.38
+    },
+    {
+      "date": "2026-04-25",
+      "total_value": 55048.84,
+      "return_pct": 10.1,
+      "spy_return": 6.72,
+      "alpha": 3.38
+    },
+    {
+      "date": "2026-04-26",
+      "total_value": 55048.84,
+      "return_pct": 10.1,
+      "spy_return": 6.72,
+      "alpha": 3.38
+    },
+    {
+      "date": "2026-04-27",
+      "total_value": 54946.96,
+      "return_pct": 9.89,
+      "spy_return": 6.91,
+      "alpha": 2.98
+    },
+    {
+      "date": "2026-04-28",
+      "total_value": 54925.24,
+      "return_pct": 9.85,
+      "spy_return": 6.39,
+      "alpha": 3.46
+    },
+    {
+      "date": "2026-04-29",
+      "total_value": 55025.21,
+      "return_pct": 10.05,
+      "spy_return": 6.37,
+      "alpha": 3.68
+    },
+    {
+      "date": "2026-04-30",
+      "total_value": 54624.42,
+      "return_pct": 9.25,
+      "spy_return": 7.43,
+      "alpha": 1.82
+    },
+    {
+      "date": "2026-05-01",
+      "total_value": 54901.67,
+      "return_pct": 9.8,
+      "spy_return": 7.73,
+      "alpha": 2.07
+    },
+    {
+      "date": "2026-05-02",
+      "total_value": 54901.67,
+      "return_pct": 9.8,
+      "spy_return": 7.73,
+      "alpha": 2.07
+    },
+    {
+      "date": "2026-05-03",
+      "total_value": 54901.67,
+      "return_pct": 9.8,
+      "spy_return": 7.73,
+      "alpha": 2.07
+    },
+    {
+      "date": "2026-05-04",
+      "total_value": 55007.77,
+      "return_pct": 10.02,
+      "spy_return": 7.33,
+      "alpha": 2.69
+    },
+    {
       "date": "2026-05-05",
-      "total_value": 54821.28,
-      "return_pct": 9.64,
+      "total_value": 54810.62,
+      "return_pct": 9.62,
       "spy_return": 8.19,
-      "alpha": 1.45
+      "alpha": 1.43
     },
     {
       "date": "2026-05-06",
-      "total_value": 55915.19,
-      "return_pct": 11.83,
+      "total_value": 55904.64,
+      "return_pct": 11.81,
       "spy_return": 9.7,
-      "alpha": 2.13
+      "alpha": 2.11
     },
     {
       "date": "2026-05-07",
-      "total_value": 56008.39,
-      "return_pct": 12.02,
+      "total_value": 55997.75,
+      "return_pct": 12.0,
       "spy_return": 9.36,
-      "alpha": 2.66
+      "alpha": 2.64
     },
     {
       "date": "2026-05-08",
-      "total_value": 55968.01,
-      "return_pct": 11.94,
+      "total_value": 55957.46,
+      "return_pct": 11.91,
       "spy_return": 10.26,
-      "alpha": 1.68
+      "alpha": 1.65
     },
     {
       "date": "2026-05-09",
-      "total_value": 55968.01,
-      "return_pct": 11.94,
+      "total_value": 55957.46,
+      "return_pct": 11.91,
       "spy_return": 10.26,
-      "alpha": 1.68
+      "alpha": 1.65
     },
     {
       "date": "2026-05-10",
-      "total_value": 55968.01,
-      "return_pct": 11.94,
+      "total_value": 55957.46,
+      "return_pct": 11.91,
       "spy_return": 10.26,
-      "alpha": 1.68
+      "alpha": 1.65
     },
     {
       "date": "2026-05-11",
-      "total_value": 55633.81,
-      "return_pct": 11.27,
+      "total_value": 55623.09,
+      "return_pct": 11.25,
       "spy_return": 10.51,
-      "alpha": 0.76
+      "alpha": 0.74
     },
     {
       "date": "2026-05-12",
-      "total_value": 55633.81,
-      "return_pct": 11.27,
-      "spy_return": 10.51,
-      "alpha": 0.76
+      "total_value": 55670.78,
+      "return_pct": 11.34,
+      "spy_return": 10.35,
+      "alpha": 0.99
+    },
+    {
+      "date": "2026-05-13",
+      "total_value": 55670.78,
+      "return_pct": 11.34,
+      "spy_return": 10.35,
+      "alpha": 0.99
     }
   ],
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-05-12",
+    "end_date": "2026-05-13",
     "initial_capital": 50000.0,
-    "current_value": 55633.81,
-    "total_return_pct": 11.27,
-    "spy_return_pct": 10.51,
-    "alpha_pct": 0.76,
+    "current_value": 55670.78,
+    "total_return_pct": 11.34,
+    "spy_return_pct": 10.35,
+    "alpha_pct": 0.99,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,
@@ -881,74 +888,74 @@
         "company_name": "Microsoft Corporation",
         "shares": 13,
         "avg_cost": 381.85,
-        "current_price": 412.6600036621094,
-        "pct_change": 8.07
+        "current_price": 407.7699890136719,
+        "pct_change": 6.79
       },
       {
         "ticker": "UNH",
         "company_name": "UnitedHealth Group Incorporated",
         "shares": 18,
         "avg_cost": 275.59,
-        "current_price": 384.44000244140625,
-        "pct_change": 39.5
+        "current_price": 396.3900146484375,
+        "pct_change": 43.83
       },
       {
         "ticker": "SAP",
         "company_name": "SAP  SE",
         "shares": 28,
         "avg_cost": 175.8,
-        "current_price": 170.10000610351562,
-        "pct_change": -3.24
+        "current_price": 167.27000427246094,
+        "pct_change": -4.85
       },
       {
         "ticker": "META",
         "company_name": "Meta Platforms, Inc.",
         "shares": 8,
         "avg_cost": 593.66,
-        "current_price": 598.8599853515625,
-        "pct_change": 0.88
+        "current_price": 603.0,
+        "pct_change": 1.57
       },
       {
         "ticker": "TSM",
         "company_name": "Taiwan Semiconductor Manufactur",
         "shares": 15,
         "avg_cost": 329.24,
-        "current_price": 404.5400085449219,
-        "pct_change": 22.87
+        "current_price": 397.2799987792969,
+        "pct_change": 20.67
       },
       {
         "ticker": "V",
         "company_name": "Visa Inc.",
         "shares": 16,
         "avg_cost": 301.62,
-        "current_price": 323.8599853515625,
-        "pct_change": 7.37
+        "current_price": 326.4200134277344,
+        "pct_change": 8.22
       },
       {
         "ticker": "NVO",
         "company_name": "Novo Nordisk A/S",
         "shares": 136,
         "avg_cost": 36.53,
-        "current_price": 46.400001525878906,
-        "pct_change": 27.02
+        "current_price": 47.0,
+        "pct_change": 28.66
       },
       {
         "ticker": "PG",
         "company_name": "Procter & Gamble Company (The)",
         "shares": 34,
         "avg_cost": 144.28,
-        "current_price": 143.36000061035156,
-        "pct_change": -0.64
+        "current_price": 143.91000366210938,
+        "pct_change": -0.26
       },
       {
         "ticker": "BABA",
         "company_name": "Alibaba Group Holding Limited",
         "shares": 40,
         "avg_cost": 122.41,
-        "current_price": 137.3000030517578,
-        "pct_change": 12.16
+        "current_price": 134.77999877929688,
+        "pct_change": 10.11
       }
     ],
-    "days_active": 56
+    "days_active": 57
   }
 }
