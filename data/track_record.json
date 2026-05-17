@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T23:10:29.354488Z",
+  "generated_at": "2026-05-17T23:16:28.846175Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -888,11 +888,18 @@
       "return_pct": 11.16,
       "spy_return": 10.49,
       "alpha": 0.67
+    },
+    {
+      "date": "2026-05-17",
+      "total_value": 55581.54,
+      "return_pct": 11.16,
+      "spy_return": 10.49,
+      "alpha": 0.67
     }
   ],
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-05-16",
+    "end_date": "2026-05-17",
     "initial_capital": 50000.0,
     "current_value": 55581.54,
     "total_return_pct": 11.16,
@@ -977,6 +984,6 @@
         "pct_change": 8.32
       }
     ],
-    "days_active": 60
+    "days_active": 61
   }
 }
