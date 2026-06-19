@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T00:06:02.742337Z",
+  "generated_at": "2026-06-19T23:20:33.082695Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -1117,15 +1117,15 @@
       "date": "2026-06-18",
       "total_value": 54420.93,
       "return_pct": 8.84,
-      "spy_return": 11.63,
-      "alpha": -2.79
+      "spy_return": 11.91,
+      "alpha": -3.07
     },
     {
       "date": "2026-06-19",
       "total_value": 54420.93,
       "return_pct": 8.84,
-      "spy_return": 11.63,
-      "alpha": -2.79
+      "spy_return": 11.91,
+      "alpha": -3.07
     }
   ],
   "kpis": {
@@ -1134,8 +1134,8 @@
     "initial_capital": 50000.0,
     "current_value": 54420.93,
     "total_return_pct": 8.84,
-    "spy_return_pct": 11.63,
-    "alpha_pct": -2.79,
+    "spy_return_pct": 11.91,
+    "alpha_pct": -3.07,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,

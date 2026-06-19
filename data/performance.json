@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-19T00:06:02.743998Z",
+  "generated_at": "2026-06-19T23:20:33.084661Z",
   "kpis": {
     "start_date": "2026-03-17",
     "end_date": "2026-06-19",
     "initial_capital": 50000.0,
     "current_value": 54420.93,
     "total_return_pct": 8.84,
-    "spy_return_pct": 11.63,
-    "alpha_pct": -2.79,
+    "spy_return_pct": 11.91,
+    "alpha_pct": -3.07,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,
@@ -378,8 +378,8 @@
       56420.0,
       56080.0,
       55380.0,
-      55815.0,
-      55815.0
+      55955.0,
+      55955.0
     ]
   },
   "recent_trades": [
