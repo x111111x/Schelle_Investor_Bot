@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T23:13:20.302448Z",
+  "generated_at": "2026-07-13T23:18:28.007436Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -1287,11 +1287,18 @@
       "return_pct": 13.22,
       "spy_return": 13.14,
       "alpha": 0.08
+    },
+    {
+      "date": "2026-07-13",
+      "total_value": 56609.36,
+      "return_pct": 13.22,
+      "spy_return": 13.14,
+      "alpha": 0.08
     }
   ],
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-07-12",
+    "end_date": "2026-07-13",
     "initial_capital": 50000.0,
     "current_value": 56609.36,
     "total_return_pct": 13.22,
@@ -1353,7 +1360,7 @@
       },
       {
         "ticker": "NVO",
-        "company_name": "Novo Nordisk A/S",
+        "company_name": "NVO",
         "shares": 136,
         "avg_cost": 36.53,
         "current_price": 49.47999954223633,
@@ -1376,6 +1383,6 @@
         "pct_change": -8.23
       }
     ],
-    "days_active": 117
+    "days_active": 118
   }
 }
