@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T00:33:09.819579Z",
+  "generated_at": "2026-07-26T23:21:53.399466Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -709,7 +709,7 @@
     },
     {
       "date": "2026-04-21",
-      "total_value": 53717.02,
+      "total_value": 53717.03,
       "return_pct": 7.43,
       "spy_return": 5.25,
       "alpha": 2.18
