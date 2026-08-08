@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:58:07.478554Z",
+  "generated_at": "2026-08-08T22:51:26.713054Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -1465,20 +1465,27 @@
     },
     {
       "date": "2026-08-07",
-      "total_value": 58464.67,
-      "return_pct": 16.93,
-      "spy_return": 15.18,
-      "alpha": 1.75
+      "total_value": 58826.94,
+      "return_pct": 17.65,
+      "spy_return": 15.89,
+      "alpha": 1.76
+    },
+    {
+      "date": "2026-08-08",
+      "total_value": 58826.94,
+      "return_pct": 17.65,
+      "spy_return": 15.89,
+      "alpha": 1.76
     }
   ],
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-08-07",
+    "end_date": "2026-08-08",
     "initial_capital": 50000.0,
-    "current_value": 58464.67,
-    "total_return_pct": 16.93,
-    "spy_return_pct": 15.18,
-    "alpha_pct": 1.75,
+    "current_value": 58826.94,
+    "total_return_pct": 17.65,
+    "spy_return_pct": 15.89,
+    "alpha_pct": 1.76,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,
@@ -1490,74 +1497,74 @@
         "company_name": "Microsoft Corporation",
         "shares": 13,
         "avg_cost": 381.85,
-        "current_price": 499.8599853515625,
-        "pct_change": 30.9
+        "current_price": 499.989990234375,
+        "pct_change": 30.94
       },
       {
         "ticker": "UNH",
         "company_name": "UnitedHealth Group Incorporated",
         "shares": 18,
         "avg_cost": 275.59,
-        "current_price": 403.9700012207031,
-        "pct_change": 46.58
+        "current_price": 407.0799865722656,
+        "pct_change": 47.71
       },
       {
         "ticker": "SAP",
         "company_name": "SAP  SE",
         "shares": 28,
         "avg_cost": 175.8,
-        "current_price": 199.4600067138672,
-        "pct_change": 13.46
+        "current_price": 206.16000366210938,
+        "pct_change": 17.27
       },
       {
         "ticker": "META",
         "company_name": "Meta Platforms, Inc.",
         "shares": 8,
         "avg_cost": 593.66,
-        "current_price": 589.9000244140625,
-        "pct_change": -0.63
+        "current_price": 592.0999755859375,
+        "pct_change": -0.26
       },
       {
         "ticker": "TSM",
         "company_name": "Taiwan Semiconductor Manufactur",
         "shares": 15,
         "avg_cost": 329.24,
-        "current_price": 418.20001220703125,
-        "pct_change": 27.02
+        "current_price": 420.0400085449219,
+        "pct_change": 27.58
       },
       {
         "ticker": "V",
         "company_name": "Visa Inc.",
         "shares": 16,
         "avg_cost": 301.62,
-        "current_price": 370.4700012207031,
-        "pct_change": 22.83
+        "current_price": 362.5,
+        "pct_change": 20.18
       },
       {
         "ticker": "NVO",
         "company_name": "Novo Nordisk A/S",
         "shares": 136,
         "avg_cost": 36.53,
-        "current_price": 45.970001220703125,
-        "pct_change": 25.84
+        "current_price": 47.2599983215332,
+        "pct_change": 29.37
       },
       {
         "ticker": "PG",
         "company_name": "Procter & Gamble Company (The)",
         "shares": 34,
         "avg_cost": 144.28,
-        "current_price": 146.97000122070312,
-        "pct_change": 1.86
+        "current_price": 145.7899932861328,
+        "pct_change": 1.05
       },
       {
         "ticker": "BABA",
         "company_name": "Alibaba Group Holding Limited",
         "shares": 40,
         "avg_cost": 122.41,
-        "current_price": 126.80999755859375,
-        "pct_change": 3.59
+        "current_price": 128.41000366210938,
+        "pct_change": 4.9
       }
     ],
-    "days_active": 143
+    "days_active": 144
   }
 }
