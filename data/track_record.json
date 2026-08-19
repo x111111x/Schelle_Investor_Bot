@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:45:53.465142Z",
+  "generated_at": "2026-08-19T22:46:31.897465Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -632,21 +632,21 @@
     },
     {
       "date": "2026-04-10",
-      "total_value": 50993.97,
+      "total_value": 50993.96,
       "return_pct": 1.99,
       "spy_return": 1.57,
       "alpha": 0.42
     },
     {
       "date": "2026-04-11",
-      "total_value": 50993.97,
+      "total_value": 50993.96,
       "return_pct": 1.99,
       "spy_return": 1.57,
       "alpha": 0.42
     },
     {
       "date": "2026-04-12",
-      "total_value": 50993.97,
+      "total_value": 50993.96,
       "return_pct": 1.99,
       "spy_return": 1.57,
       "alpha": 0.42
@@ -1542,20 +1542,27 @@
     },
     {
       "date": "2026-08-18",
-      "total_value": 57770.27,
-      "return_pct": 15.54,
-      "spy_return": 15.8,
-      "alpha": -0.26
+      "total_value": 57712.59,
+      "return_pct": 15.43,
+      "spy_return": 15.02,
+      "alpha": 0.41
+    },
+    {
+      "date": "2026-08-19",
+      "total_value": 57712.59,
+      "return_pct": 15.43,
+      "spy_return": 15.02,
+      "alpha": 0.41
     }
   ],
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-08-18",
+    "end_date": "2026-08-19",
     "initial_capital": 50000.0,
-    "current_value": 57770.27,
-    "total_return_pct": 15.54,
-    "spy_return_pct": 15.8,
-    "alpha_pct": -0.26,
+    "current_value": 57712.59,
+    "total_return_pct": 15.43,
+    "spy_return_pct": 15.02,
+    "alpha_pct": 0.41,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,
@@ -1567,74 +1574,74 @@
         "company_name": "Microsoft Corporation",
         "shares": 13,
         "avg_cost": 381.85,
-        "current_price": 480.3500061035156,
-        "pct_change": 25.8
+        "current_price": 481.6300048828125,
+        "pct_change": 26.13
       },
       {
         "ticker": "UNH",
         "company_name": "UnitedHealth Group Incorporated",
         "shares": 18,
         "avg_cost": 275.59,
-        "current_price": 395.6199951171875,
-        "pct_change": 43.55
+        "current_price": 393.92999267578125,
+        "pct_change": 42.94
       },
       {
         "ticker": "SAP",
         "company_name": "SAP  SE",
         "shares": 28,
         "avg_cost": 175.8,
-        "current_price": 207.83999633789062,
-        "pct_change": 18.23
+        "current_price": 210.47000122070312,
+        "pct_change": 19.72
       },
       {
         "ticker": "META",
         "company_name": "Meta Platforms, Inc.",
         "shares": 8,
         "avg_cost": 593.66,
-        "current_price": 568.969970703125,
-        "pct_change": -4.16
+        "current_price": 543.6699829101562,
+        "pct_change": -8.42
       },
       {
         "ticker": "TSM",
         "company_name": "Taiwan Semiconductor Manufactur",
         "shares": 15,
         "avg_cost": 329.24,
-        "current_price": 430.9700012207031,
-        "pct_change": 30.9
+        "current_price": 413.4100036621094,
+        "pct_change": 25.56
       },
       {
         "ticker": "V",
         "company_name": "Visa Inc.",
         "shares": 16,
         "avg_cost": 301.62,
-        "current_price": 358.8399963378906,
-        "pct_change": 18.97
+        "current_price": 364.25,
+        "pct_change": 20.76
       },
       {
         "ticker": "NVO",
         "company_name": "Novo Nordisk A/S",
         "shares": 136,
         "avg_cost": 36.53,
-        "current_price": 44.880001068115234,
-        "pct_change": 22.86
+        "current_price": 45.709999084472656,
+        "pct_change": 25.13
       },
       {
         "ticker": "PG",
         "company_name": "Procter & Gamble Company (The)",
         "shares": 34,
         "avg_cost": 144.28,
-        "current_price": 143.1199951171875,
-        "pct_change": -0.8
+        "current_price": 143.4499969482422,
+        "pct_change": -0.58
       },
       {
         "ticker": "BABA",
         "company_name": "Alibaba Group Holding Limited",
         "shares": 40,
         "avg_cost": 122.41,
-        "current_price": 124.70999908447266,
-        "pct_change": 1.88
+        "current_price": 128.14999389648438,
+        "pct_change": 4.69
       }
     ],
-    "days_active": 154
+    "days_active": 155
   }
 }
