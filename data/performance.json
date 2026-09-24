@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-23T00:28:43.650419Z",
+  "generated_at": "2026-09-24T00:37:09.764699Z",
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-09-23",
+    "end_date": "2026-09-24",
     "initial_capital": 50000.0,
-    "current_value": 58580.12,
-    "total_return_pct": 17.16,
-    "spy_return_pct": 16.21,
-    "alpha_pct": 0.95,
+    "current_value": 58566.89,
+    "total_return_pct": 17.13,
+    "spy_return_pct": 16.19,
+    "alpha_pct": 0.94,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,
@@ -19,8 +19,8 @@
         "company_name": "Microsoft Corporation",
         "shares": 13,
         "avg_cost": 381.85,
-        "current_price": 501.6099853515625,
-        "pct_change": 31.36
+        "current_price": 498.0,
+        "pct_change": 30.42
       },
       {
         "ticker": "UNH",
@@ -43,16 +43,16 @@
         "company_name": "Meta Platforms, Inc.",
         "shares": 8,
         "avg_cost": 593.66,
-        "current_price": 741.25,
-        "pct_change": 24.86
+        "current_price": 736.5999755859375,
+        "pct_change": 24.08
       },
       {
         "ticker": "TSM",
         "company_name": "Taiwan Semiconductor Manufactur",
         "shares": 15,
         "avg_cost": 329.24,
-        "current_price": 445.1400146484375,
-        "pct_change": 35.2
+        "current_price": 452.0,
+        "pct_change": 37.29
       },
       {
         "ticker": "V",
@@ -67,8 +67,8 @@
         "company_name": "Novo Nordisk A/S",
         "shares": 136,
         "avg_cost": 36.53,
-        "current_price": 39.79999923706055,
-        "pct_change": 8.95
+        "current_price": 39.400001525878906,
+        "pct_change": 7.86
       },
       {
         "ticker": "PG",
@@ -83,11 +83,11 @@
         "company_name": "Alibaba Group Holding Limited",
         "shares": 40,
         "avg_cost": 122.41,
-        "current_price": 115.75,
-        "pct_change": -5.44
+        "current_price": 116.30999755859375,
+        "pct_change": -4.98
       }
     ],
-    "days_active": 190
+    "days_active": 191
   },
   "chart": {
     "labels": [
@@ -281,7 +281,8 @@
       "2026-09-20",
       "2026-09-21",
       "2026-09-22",
-      "2026-09-23"
+      "2026-09-23",
+      "2026-09-24"
     ],
     "portfolio": [
       49995.46,
@@ -473,8 +474,9 @@
       58059.06,
       58059.06,
       58580.12,
-      58580.12,
-      58580.12
+      58566.89,
+      58566.89,
+      58566.89
     ],
     "spy_benchmark": [
       50000.0,
@@ -666,8 +668,9 @@
       57220.0,
       57220.0,
       58105.0,
-      58105.0,
-      58105.0
+      58095.0,
+      58095.0,
+      58095.0
     ]
   },
   "recent_trades": [
