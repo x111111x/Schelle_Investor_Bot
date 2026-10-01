@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:27:29.336122Z",
+  "generated_at": "2026-10-01T01:25:24.682590Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -555,7 +555,7 @@
     },
     {
       "date": "2026-03-30",
-      "total_value": 48007.65,
+      "total_value": 48007.64,
       "return_pct": -3.98,
       "spy_return": -5.53,
       "alpha": 1.55
@@ -1847,11 +1847,18 @@
       "return_pct": 16.64,
       "spy_return": 14.82,
       "alpha": 1.82
+    },
+    {
+      "date": "2026-10-01",
+      "total_value": 58319.47,
+      "return_pct": 16.64,
+      "spy_return": 14.82,
+      "alpha": 1.82
     }
   ],
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-09-30",
+    "end_date": "2026-10-01",
     "initial_capital": 50000.0,
     "current_value": 58319.47,
     "total_return_pct": 16.64,
@@ -1936,6 +1943,6 @@
         "pct_change": -11.98
       }
     ],
-    "days_active": 197
+    "days_active": 198
   }
 }
