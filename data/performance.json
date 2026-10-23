@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-22T00:51:16.188696Z",
+  "generated_at": "2026-10-23T00:47:46.658044Z",
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-10-22",
+    "end_date": "2026-10-23",
     "initial_capital": 50000.0,
-    "current_value": 60289.76,
-    "total_return_pct": 20.58,
-    "spy_return_pct": 15.54,
-    "alpha_pct": 5.04,
+    "current_value": 60225.15,
+    "total_return_pct": 20.45,
+    "spy_return_pct": 16.15,
+    "alpha_pct": 4.3,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,
@@ -19,75 +19,75 @@
         "company_name": "Microsoft Corporation",
         "shares": 13,
         "avg_cost": 381.85,
-        "current_price": 531.8699951171875,
-        "pct_change": 39.29
+        "current_price": 532.9500122070312,
+        "pct_change": 39.57
       },
       {
         "ticker": "UNH",
         "company_name": "UnitedHealth Group Incorporated",
         "shares": 18,
         "avg_cost": 275.59,
-        "current_price": 419.260009765625,
-        "pct_change": 52.13
+        "current_price": 417.0,
+        "pct_change": 51.31
       },
       {
         "ticker": "SAP",
         "company_name": "SAP  SE",
         "shares": 28,
         "avg_cost": 175.8,
-        "current_price": 228.97999572753906,
-        "pct_change": 30.25
+        "current_price": 232.72999572753906,
+        "pct_change": 32.38
       },
       {
         "ticker": "META",
         "company_name": "Meta Platforms, Inc.",
         "shares": 8,
         "avg_cost": 593.66,
-        "current_price": 694.25,
-        "pct_change": 16.94
+        "current_price": 697.52001953125,
+        "pct_change": 17.49
       },
       {
         "ticker": "TSM",
         "company_name": "Taiwan Semiconductor Manufactur",
         "shares": 15,
         "avg_cost": 329.24,
-        "current_price": 425.0799865722656,
-        "pct_change": 29.11
+        "current_price": 431.8900146484375,
+        "pct_change": 31.18
       },
       {
         "ticker": "V",
         "company_name": "Visa Inc.",
         "shares": 16,
         "avg_cost": 301.62,
-        "current_price": 406.57000732421875,
-        "pct_change": 34.8
+        "current_price": 407.8500061035156,
+        "pct_change": 35.22
       },
       {
         "ticker": "NVO",
         "company_name": "Novo Nordisk A/S",
         "shares": 136,
         "avg_cost": 36.53,
-        "current_price": 39.349998474121094,
-        "pct_change": 7.72
+        "current_price": 39.060001373291016,
+        "pct_change": 6.93
       },
       {
         "ticker": "PG",
         "company_name": "Procter & Gamble Company (The)",
         "shares": 34,
         "avg_cost": 144.28,
-        "current_price": 159.32000732421875,
-        "pct_change": 10.42
+        "current_price": 156.83999633789062,
+        "pct_change": 8.71
       },
       {
         "ticker": "BABA",
         "company_name": "Alibaba Group Holding Limited",
         "shares": 40,
         "avg_cost": 122.41,
-        "current_price": 108.61000061035156,
-        "pct_change": -11.27
+        "current_price": 104.41000366210938,
+        "pct_change": -14.7
       }
     ],
-    "days_active": 219
+    "days_active": 220
   },
   "chart": {
     "labels": [
@@ -310,7 +310,8 @@
       "2026-10-19",
       "2026-10-20",
       "2026-10-21",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-10-23"
     ],
     "portfolio": [
       49995.46,
@@ -372,13 +373,13 @@
       55351.7,
       55663.26,
       55750.36,
-      55266.85,
-      55266.85,
-      55266.85,
+      55266.86,
+      55266.86,
+      55266.86,
       55336.37,
       55235.97,
       55473.6,
-      55273.33,
+      55273.32,
       55365.24,
       55365.24,
       55365.24,
@@ -531,8 +532,9 @@
       59621.37,
       59780.49,
       60289.76,
-      60289.76,
-      60289.76
+      60225.15,
+      60225.15,
+      60225.15
     ],
     "spy_benchmark": [
       50000.0,
@@ -753,8 +755,9 @@
       57335.0,
       57580.0,
       57770.0,
-      57770.0,
-      57770.0
+      58075.0,
+      58075.0,
+      58075.0
     ]
   },
   "recent_trades": [
