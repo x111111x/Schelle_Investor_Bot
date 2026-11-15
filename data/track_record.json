@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T02:21:40.771034Z",
+  "generated_at": "2026-11-15T01:53:39.897977Z",
   "initial_capital": 50000.0,
   "snapshots": [
     {
@@ -555,7 +555,7 @@
     },
     {
       "date": "2026-03-30",
-      "total_value": 47966.95,
+      "total_value": 47966.94,
       "return_pct": -4.07,
       "spy_return": -5.53,
       "alpha": 1.46
@@ -807,7 +807,7 @@
     },
     {
       "date": "2026-05-05",
-      "total_value": 54461.25,
+      "total_value": 54461.26,
       "return_pct": 8.92,
       "spy_return": 8.19,
       "alpha": 0.73
@@ -1192,7 +1192,7 @@
     },
     {
       "date": "2026-06-29",
-      "total_value": 54539.56,
+      "total_value": 54539.57,
       "return_pct": 9.08,
       "spy_return": 11.05,
       "alpha": -1.97
@@ -2151,27 +2151,34 @@
     },
     {
       "date": "2026-11-13",
-      "total_value": 59582.32,
-      "return_pct": 19.16,
+      "total_value": 59727.76,
+      "return_pct": 19.46,
       "spy_return": 13.34,
-      "alpha": 5.82
+      "alpha": 6.12
     },
     {
       "date": "2026-11-14",
-      "total_value": 59582.32,
-      "return_pct": 19.16,
+      "total_value": 59727.76,
+      "return_pct": 19.46,
       "spy_return": 13.34,
-      "alpha": 5.82
+      "alpha": 6.12
+    },
+    {
+      "date": "2026-11-15",
+      "total_value": 59727.76,
+      "return_pct": 19.46,
+      "spy_return": 13.34,
+      "alpha": 6.12
     }
   ],
   "kpis": {
     "start_date": "2026-03-17",
-    "end_date": "2026-11-14",
+    "end_date": "2026-11-15",
     "initial_capital": 50000.0,
-    "current_value": 59582.32,
-    "total_return_pct": 19.16,
+    "current_value": 59727.76,
+    "total_return_pct": 19.46,
     "spy_return_pct": 13.34,
-    "alpha_pct": 5.82,
+    "alpha_pct": 6.12,
     "total_trades": 9,
     "closed_trades": 0,
     "win_rate": 0,
@@ -2207,8 +2214,8 @@
         "company_name": "Meta Platforms, Inc.",
         "shares": 8,
         "avg_cost": 593.66,
-        "current_price": 623.6099853515625,
-        "pct_change": 5.04
+        "current_price": 641.6900024414062,
+        "pct_change": 8.09
       },
       {
         "ticker": "TSM",
@@ -2247,10 +2254,10 @@
         "company_name": "Alibaba Group Holding Limited",
         "shares": 40,
         "avg_cost": 122.41,
-        "current_price": 94.36000061035156,
-        "pct_change": -22.91
+        "current_price": 94.37999725341797,
+        "pct_change": -22.9
       }
     ],
-    "days_active": 242
+    "days_active": 243
   }
 }
